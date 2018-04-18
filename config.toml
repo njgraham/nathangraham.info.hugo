@@ -1,0 +1,49 @@
+baseURL = "https://njgraham.info/"
+languageCode = "en-us"
+author = "Nathan Graham"
+title = "Nathan Graham"
+theme = "hugo-goa"
+
+# ACK: https://discourse.gohugo.io/t/solved-posts-in-netlify-fail-to-load/9177
+disableAliases = true
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+## Site Settings
+[params]
+author = "Nathan Graham"
+intro = "Software Engineer"
+description = "(testing site, see <a href=\"http://www.nathangraham.info\">nathangraham.info</a> for my \"official\" site)<br>Now @EquipmentShare. Previously @University of Kansas Medical Center, @Cerner and @Garmin."
+authorimage = "headshot.jpg"
+dateformat = "2017-01-01"
+
+## Site Meta Settings
+[params.meta]
+description = "Nathan Graham"
+keywords = "hugo,developer,engineer"
+
+## Social Accounts
+[params.social]
+github = "njgraham"
+linkedin = "nathangraham1"
+# email = "njgraham@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Nathan Graham. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "résumé"
+    identifier = "resume"
+    weight = 200
+    url = "/resume/"
