@@ -1,3 +1,4 @@
 [submodule "themes/hugo-goa"]
 	path = themes/hugo-goa
 	url = git@github.com:njgraham/hugo-goa.git
+	branch = nathangraham.info
